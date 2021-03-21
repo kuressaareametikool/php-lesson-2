@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Check identical",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'that there is no difference between identical strands'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Single strand",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'it completes hamming distance of single nucleotide strand'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Small strand",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'it completes hamming distance of small nucleotide strand'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Calculate hamming distance",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'it calculates hamming distance'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Calculate longer distance",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'it calculates hamming distance on a longer strand'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Calculate large strand distance",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'it calculates hamming distance on a large strand'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Calculate very large strand distance",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'it calculates hamming distance on a very large strand'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Check for exceptions",
+      "setup": "",
+      "run": "./vendor/bin/pest --filter 'if correct exceptions are thrown'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
